@@ -1,0 +1,12 @@
+backend:
+  name: github
+  repo: akshatkedia/satiplastics.com
+media_folder: "_uploads"
+public_folder: "/uploads"
+collections:
+  - name: "products"
+    label: "Products"
+    folder: "_products"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
