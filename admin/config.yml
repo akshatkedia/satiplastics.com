@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: akshatkedia/satiplastics.com
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
 media_folder: "_uploads"
 public_folder: "/uploads"
 collections:
@@ -9,4 +9,15 @@ collections:
     folder: "_products"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Image"
+        name: "image"
+        widget: "image"
+      - label: "Product Category"
+        name: "category"
+        widget: "relation"
+        collection: "product_categories"
+        searchFields: "[title]"
+        valueField: "title"
