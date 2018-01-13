@@ -5,7 +5,7 @@ media_folder: "_uploads"
 public_folder: "/uploads"
 collections:
   - name: "product_categories"
-    label: "Product Categories"
+    label: "Product Category"
     folder: "_products_categories"
     create: true
     fields:
@@ -16,7 +16,7 @@ collections:
         name: "image"
         widget: "image"
   - name: "products"
-    label: "Products"
+    label: "Product"
     folder: "_products"
     create: true
     fields:
