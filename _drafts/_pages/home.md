@@ -1,6 +1,6 @@
 ---
 title: Home
-date: 2018-01-29 23:34:02 +05:30
+date: 2018-01-29 18:04:02 +0000
 slider:
   images:
   - "/uploads/2018/01/29/banner_1.jpg"
