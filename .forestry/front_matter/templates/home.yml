@@ -1,0 +1,16 @@
+---
+hide_body: false
+fields:
+- type: field_group
+  label: Slider
+  name: slider
+  fields:
+  - type: image_gallery
+    label: Images
+    name: images
+  - type: text
+    name: title
+    label: Title
+  - type: textarea
+    label: Lead
+    name: lead
