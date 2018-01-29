@@ -1,1 +1,42 @@
 /*! Place your custom styles here */
+
+.background-image-holder {
+  opacity: 0;
+  z-index: 0;
+  animation: imageAnimation 18s linear infinite 0s;
+}
+
+.background-image-holder:nth-child(2) {
+  animation-delay: 6s;
+}
+
+.background-image-holder:nth-child(3) {
+  animation-delay: 12s;
+}
+
+@keyframes imageAnimation {
+  0% { opacity: 0; animation-timing-function: ease-in; }
+  8% { opacity: 1; animation-timing-function: ease-out; }
+  34% { opacity: 1 }
+  50% { opacity: 0 }
+  100% { opacity: 0 }
+}
+
+@media all and (min-width: 992px) {
+  .how-we-create .flex-vertical-center {
+    height: 303px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .how-we-create .flex-vertical-center {
+    height: 370px;
+  }
+}
+
+.flex-vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}

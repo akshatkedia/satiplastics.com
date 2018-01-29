@@ -2,10 +2,12 @@
 layout: default
 ---
 
-<section class="cover cover-features imagebg space--lg" data-overlay="2">
-  <div class="background-image-holder" style="background: url(&quot;/img/landing-factory-floor.jpg&quot;); opacity: 1;">
-    <img alt="background" src="/img/landing-factory-floor.jpg">
+<section class="cover cover-features imagebg space--lg">
+  {% for image in page.slider.images %}
+  <div class="background-image-holder" style="background: url(&quot;{{ image }}&quot;);">
+    <img alt="background" src="{{ image }}">
   </div>
+  {% endfor %}
   <div class="container">
     <div class="row">
       <div class="col-sm-9 col-md-7">
@@ -24,56 +26,33 @@ layout: default
     </div>
     <!--end of row-->
     <div class="row">
+      {% for card in page.slider.cards %}
       <div class="col-sm-4">
         <div class="feature feature-1 boxed boxed--border bg--white">
-          <h5 class="text-uppercase">We Are Innovators</h5>
+          <h5 class="text-uppercase">{{ card.title }}</h5>
           <p>
-            Maximize your market potential as we manufacture innovative plastic packaging for your product, with larger speed, quality and management than the competitors.
+            {{ card.text }}
           </p>
         </div>
         <!--end feature-->
       </div>
-      <div class="col-sm-4">
-        <div class="feature feature-1 boxed boxed--border bg--white">
-          <h5 class="text-uppercase">We Are Leaders</h5>
-          <p>
-            Sati Plastics could be a leader within the field of rigid plastic packaging, job to associate array of industries like Pharmaceutical & Nutraceuticals, Cosmetics, Food & farm and Chemical.
-          </p>
-        </div>
-        <!--end feature-->
-      </div>
-      <div class="col-sm-4">
-        <div class="feature feature-1 boxed boxed--border bg--white">
-          <h5 class="text-uppercase">We Are Differentiators</h5>
-          <p>
-            Our decoration capabilities and price intercalary options shall differentiate your product and increase client price, therefore creating your complete stand out at the purpose of sale.
-          </p>
-        </div>
-        <!--end feature-->
-      </div>
+      {% endfor %}
     </div>
     <!--end of row-->
   </div>
   <!--end of container-->
 </section>
-<section class="feature-large switchable ">
+<section class="feature-large switchable how-we-create">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-6">
-        <img alt="Image" class="border--round box-shadow-wide" src="img/inner-5.jpg">
+        <img alt="Image" class="border--round box-shadow-wide" src="{{ page['how_we_create'].image }}">
       </div>
-      <div class="col-md-5 col-sm-6">
+      <div class="col-md-5 col-sm-6 flex-vertical-center">
         <div class="text-block">
-          <h5>Goals</h5>
+          <h3>{{ page['how_we_create'].title }}</h3>
           <p>
-            Optimise the customer’s cost, increase the customer's profit.<br> Endeavour to deliver, zero defect products and services to customers.<br> Continuously improving our process.
-          </p>
-        </div>
-        <div class="text-block">
-          <h5>How We Create</h5>
-          <p>
-            Simplifying and improving our processes continuously.<br> Optimizing our financial and physical resources.<br> Communicating openly, honestly and frequently.<br> Developing a highly motivated, valued and diverse workforce.<br> Collaborating,
-            supporting and respecting one another.<br> Acting with absolute integrity.
+            {{ page['how_we_create'].text | newline_to_br }}
           </p>
         </div>
       </div>
