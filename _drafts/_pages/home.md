@@ -1,6 +1,6 @@
 ---
 title: Home
-date: 2018-01-29 23:34:02 +05:30
+date: 2018-01-29 18:04:02 +0000
 slider:
   images:
   - "/uploads/2018/01/29/banner_1.jpg"
@@ -20,5 +20,12 @@ slider:
     text: Our decoration capabilities and price intercalary options shall differentiate
       your product and increase client price, therefore creating your complete stand
       out at the purpose of sale.
+how_we_create:
+  image: "/uploads/2018/01/29/how_we_create.jpg"
+  title: How We Create
+  text: "Simplifying and improving our processes continuously.\nOptimizing our financial
+    and physical resources.\nCommunicating openly, honestly and frequently.\nDeveloping
+    a highly motivated, valued and diverse workforce.\nCollaborating, supporting and
+    respecting one another.\nActing with absolute integrity. "
 ---
 
