@@ -1,15 +1,14 @@
 ---
 title: Home
-date: 2018-01-29 23:34:02 +05:30
-permalink: "/"
-layout: index
+date: 2018-01-29 18:04:02 +0000
 slider:
   images:
   - "/uploads/2018/01/29/banner_1.jpg"
   - "/uploads/2018/01/29/banner_2.jpg"
   - "/uploads/2018/01/29/banner_3.jpg"
-  title: ''
-  lead: ''
+  title: Complexity Simplified
+  lead: Sati Plastics provides manufacturing expertise for your plastic injection
+    molding needs.
   cards:
   - title: We Are Innovators
     text: Maximize your market potential as we manufacture innovative plastic packaging
@@ -29,5 +28,7 @@ how_we_create:
     and physical resources.\nCommunicating openly, honestly and frequently.\nDeveloping
     a highly motivated, valued and diverse workforce.\nCollaborating, supporting and
     respecting one another.\nActing with absolute integrity. "
+layout: index
+permalink: "/"
 ---
 
