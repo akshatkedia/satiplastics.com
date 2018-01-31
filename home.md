@@ -1,6 +1,7 @@
 ---
 title: Home
-date: 2018-01-29 18:04:02 +0000
+date: 2018-01-29 23:34:02 +05:30
+permalink: "/"
 slider:
   images:
   - "/uploads/2018/01/29/banner_1.jpg"
@@ -29,6 +30,5 @@ how_we_create:
     a highly motivated, valued and diverse workforce.\nCollaborating, supporting and
     respecting one another.\nActing with absolute integrity. "
 layout: index
-permalink: "/"
 ---
 
