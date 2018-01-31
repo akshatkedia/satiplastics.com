@@ -71,42 +71,17 @@ layout: default
     <div class="row">
       <div class="masonry">
         <div class="masonry__container masonry--active" style="position: relative; height: 956.218px;">
+          {% for category in site.product_categories %}
           <div class="masonry__item col-sm-6 text-center filter-print" data-masonry-filter="Print" style="position: absolute; left: 0px; top: 0px;">
             <div class="project-thumb">
               <a href="#">
                 <img alt="Image" class="border--round" src="img/work-6.jpg">
               </a>
-              <h4>Nike Active</h4>
+              <h4>{{ category.title }}</h4>
             </div>
           </div>
           <!--end item-->
-          <div class="masonry__item col-sm-6 text-center filter-print" data-masonry-filter="Print" style="position: absolute; left: 585px; top: 0px;">
-            <div class="project-thumb">
-              <a href="#">
-                <img alt="Image" class="border--round" src="img/work-2.jpg">
-              </a>
-              <h4>Get Lost in Thailand</h4>
-            </div>
-          </div>
-          <!--end item-->
-          <div class="masonry__item col-sm-6 text-center filter-branding" data-masonry-filter="Branding" style="position: absolute; left: 0px; top: 478px;">
-            <div class="project-thumb">
-              <a href="#">
-                <img alt="Image" class="border--round" src="img/work-3.jpg">
-              </a>
-              <h4>M&amp;D Stairs Company</h4>
-            </div>
-          </div>
-          <!--end item-->
-          <div class="masonry__item col-sm-6 text-center filter-branding" data-masonry-filter="Branding" style="position: absolute; left: 585px; top: 478px;">
-            <div class="project-thumb">
-              <a href="#">
-                <img alt="Image" class="border--round" src="img/work-4.jpg">
-              </a>
-              <h4>Blossom Naturals</h4>
-            </div>
-          </div>
-          <!--end item-->
+          {% endfor %}
         </div>
         <!--end of masonry container-->
       </div>
