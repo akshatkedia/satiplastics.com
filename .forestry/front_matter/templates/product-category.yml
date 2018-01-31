@@ -1,10 +1,10 @@
 ---
 pages:
+- _categories/sprays-and-pumps.md
 - _categories/jars.md
 - _categories/thread-spools.md
 - _categories/measuring-cups-and-spoons.md
 - _categories/bottles.md
-- _categories/sprays-and-pumps.md
 hide_body: true
 fields:
 - type: file
