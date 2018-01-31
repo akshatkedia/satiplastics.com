@@ -16,13 +16,9 @@ fields:
   name: products
   label: Products
   fields:
-  - type: field_group
-    name: product
-    label: Product
-    fields:
-    - type: text
-      name: name
-      label: Name
-    - type: file
-      name: image
-      label: Image
+  - type: text
+    name: name
+    label: Name
+  - type: file
+    name: image
+    label: Image
