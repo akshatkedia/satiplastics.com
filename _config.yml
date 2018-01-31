@@ -2,14 +2,25 @@
 title: Sati Plastics
 timezone: Mumbai
 collections:
+  uploads:
+    title: Uploads
+    output: true
   product_categories:
     title: Product Categories
-    output: true
+    output: false
+defaults:
+  - scope:
+      path: ""
+      type: product_categories
+    values:
+      featured_image:
+      products:
+        - title:
+          image:
 email: ashish@satiplastics.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
-baseurl: "/"
 url: https://www.satiplastics.com
 markdown: kramdown
 exclude:
@@ -23,3 +34,5 @@ exclude:
 sass:
   sass_dir: styles/
   style: compressed
+plugins:
+  - jekyll-sitemap
