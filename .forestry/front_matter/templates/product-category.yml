@@ -12,3 +12,17 @@ fields:
   label: Featured Image
   config:
     maxSize: '0.5'
+- type: field_group_list
+  name: products
+  label: Products
+  fields:
+  - type: field_group
+    name: product
+    label: Product
+    fields:
+    - type: text
+      name: name
+      label: Name
+    - type: file
+      name: image
+      label: Image
