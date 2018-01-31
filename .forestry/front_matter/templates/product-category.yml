@@ -1,5 +1,6 @@
 ---
 pages:
+- _categories/bottles.md
 - _categories/sprays-and-pumps.md
 hide_body: true
 fields:
