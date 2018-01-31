@@ -2,14 +2,8 @@
 title: Sati Plastics
 timezone: Mumbai
 collections:
-  posts:
-    title: Posts
-    output: true
-  products:
-    title: Products
-    output: false
-  uploads:
-    title: Uploads
+  categories:
+    title: Product Categories
     output: true
 email: ashish@satiplastics.com
 description: Write an awesome description for your new site here. You can edit this
