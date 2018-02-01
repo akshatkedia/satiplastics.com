@@ -8,8 +8,13 @@ layout: default
       <div class="col-sm-12">
         <div class="tabs-container tabs--vertical">
           <ul class="tabs">
+            <li class="active">
+              <div class="tab__title">
+                <span class="h5">All</span>
+              </div>
+            </li>
             {% for category in site.product_categories %}
-            <li {% if forloop.first %}class="active"{% endif %}>
+            <li>
               <div class="tab__title">
                 <span class="h5">{{ category.title }}</span>
               </div>
@@ -17,27 +22,57 @@ layout: default
             {% endfor %}
           </ul>
           <ul class="tabs-content">
+            <li class="active">
+              <div class="tab__content">
+                <div class="masonry">
+                  <div class="row mb--3">
+                    <div class="masonry__container masonry--active" style="position: relative; height: 762px;">
+                      {% for category in site.product_categories %}
+                        {% for product in category.products %}
+                        <div class="masonry__item col-md-4 col-xs-6 col-12" style="position: absolute; left: 0px; top: 0px;">
+                          <div class="project-thumb hover-element border--round hover--active">
+                            <div class="hover-element__initial">
+                              <div class="background-image-holder" style="background-color: rgba(0, 0, 0, 0); background-position: initial; background-repeat: repeat; background-attachment: scroll; background-image: url(&quot;{{ product.image }}&quot;); background-size: auto auto; background-origin: padding-box; background-clip: border-box; opacity: 1;">
+                                <img alt="background" src="{{ product.image }}">
+                              </div>
+                            </div>
+                            <!-- <div class="hover-element__reveal" data-scrim-top="5">
+                              <div class="project-thumb__title">
+                                <h4>{{ product.title }}</h4>
+                              </div>
+                            </div> -->
+                          </div>
+                        </div>
+                        <!--end item-->
+                        {% endfor %}
+                      {% endfor %}
+                    </div>
+                    <!--end of masonry container-->
+                  </div>
+                  <!--end row-->
+                </div>
+                <!--end masonry-->
+              </div>
+            </li>
             {% for category in site.product_categories %}
-            <li {% if forloop.first %}class="active"{% endif %}>
+            <li>
               <div class="tab__content">
                 <div class="masonry">
                   <div class="row mb--3">
                     <div class="masonry__container masonry--active" style="position: relative; height: 762px;">
                         {% for product in category.products %}
-                        <div class="masonry__item col-md-4 col-sm-6 col-xs-12 filter-digital" data-masonry-filter="Digital" style="position: absolute; left: 0px; top: 0px;">
+                        <div class="masonry__item col-md-4 col-xs-6" style="position: absolute; left: 0px; top: 0px;">
                           <div class="project-thumb hover-element border--round hover--active">
-                            <a href="#">
-                              <div class="hover-element__initial">
-                                <div class="background-image-holder" style="background-color: rgba(0, 0, 0, 0); background-position: initial; background-repeat: repeat; background-attachment: scroll; background-image: url(&quot;{{ product.image }}&quot;); background-size: auto auto; background-origin: padding-box; background-clip: border-box; opacity: 1;">
-                                  <img alt="background" src="{{ product.image }}">
-                                </div>
+                            <div class="hover-element__initial">
+                              <div class="background-image-holder" style="background-color: rgba(0, 0, 0, 0); background-position: initial; background-repeat: repeat; background-attachment: scroll; background-image: url(&quot;{{ product.image }}&quot;); background-size: auto auto; background-origin: padding-box; background-clip: border-box; opacity: 1;">
+                                <img alt="background" src="{{ product.image }}">
                               </div>
-                              <!-- <div class="hover-element__reveal" data-scrim-top="5">
-                                <div class="project-thumb__title">
-                                  <h4>{{ product.title }}</h4>
-                                </div>
-                              </div> -->
-                            </a>
+                            </div>
+                            <!-- <div class="hover-element__reveal" data-scrim-top="5">
+                              <div class="project-thumb__title">
+                                <h4>{{ product.title }}</h4>
+                              </div>
+                            </div> -->
                           </div>
                         </div>
                         <!--end item-->
