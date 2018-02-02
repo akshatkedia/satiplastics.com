@@ -34,7 +34,7 @@ how_we_create:
     respecting one another.\nActing with absolute integrity."
 goals:
   - icon: Bar-Chart
-    title: Increase Profits
+    title: Increase Customer Profits
   - icon: Financial
     title: Cost Effective Services
   - icon: Check
