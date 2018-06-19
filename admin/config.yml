@@ -11,6 +11,13 @@ collections:
     folder: "_products"
     create: true
     fields:
-      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Name", name: "title", widget: "string"}
       - {label: "Image", name: "thumbnail", widget: "image"}
       - {label: "Product Code", name: "code", widget: "string"}
+  - name: "product_category"
+    label: "Product Category"
+    folder: "_product_catgories"
+    create: true
+    fields:
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Image", name: "thumbnail", widget: "image"}
