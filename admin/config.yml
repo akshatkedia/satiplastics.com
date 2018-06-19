@@ -14,6 +14,11 @@ collections:
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Image", name: "thumbnail", widget: "image"}
       - {label: "Product Code", name: "code", widget: "string"}
+      - label: "Product Category"
+        name: "category"
+        widget: "relation"
+        searchFields: ["title"]
+        valueField: "title"
   - name: "product_category"
     label: "Product Category"
     folder: "_product_categories"
