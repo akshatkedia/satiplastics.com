@@ -5,6 +5,8 @@ collections:
   uploads:
     title: Uploads
     output: true
+  products:
+    output: false
   product_categories:
     title: Product Categories
     output: false
