@@ -16,7 +16,7 @@ collections:
       - {label: "Product Code", name: "code", widget: "string"}
   - name: "product_category"
     label: "Product Category"
-    folder: "_product_catgories"
+    folder: "_product_categories"
     create: true
     fields:
       - {label: "Name", name: "title", widget: "string"}
