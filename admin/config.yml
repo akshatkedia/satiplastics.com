@@ -17,6 +17,7 @@ collections:
       - label: "Product Category"
         name: "category"
         widget: "relation"
+        collection: "product_category"
         searchFields: ["title"]
         valueField: "title"
   - name: "product_category"
