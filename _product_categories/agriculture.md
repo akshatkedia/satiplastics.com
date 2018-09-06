@@ -10,9 +10,9 @@ products:
 - image: "/uploads/nocil_hdpe_bottle_250to1ltr.JPG"
   name: Nocil HDPE bottle 250 mL to 1 L
 - image: "/uploads/nandi_hdpe_bottles_100to1ltr.JPG"
-  name: Nandi HDPE bottles 100 ml to 1 l
+  name: Nandi HDPE bottles 100 mL to 1 L
 - image: "/uploads/trianguler_hdpe_bottle_50to1ltr.JPG"
-  name: Trianguler HDPE bottle 50 ml to 1 l
+  name: Trianguler HDPE bottle 50 mL to 1 L
 - image: "/uploads/diamond_hdpe_bottle_50to1ltr.JPG"
   name: Diamond HDPE bottle 50 ml to 1 l
 - image: "/uploads/amway_bottle_100to1ltr.JPG"
