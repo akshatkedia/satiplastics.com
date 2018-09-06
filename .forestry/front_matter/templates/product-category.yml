@@ -1,0 +1,18 @@
+---
+label: Product Category
+hide_body: false
+is_partial: false
+fields:
+- type: file
+  name: featured_image
+  label: Featured image
+- type: field_group_list
+  name: products
+  label: Products
+  fields:
+  - type: file
+    name: image
+    label: Image
+  - type: text
+    name: name
+    label: Name
