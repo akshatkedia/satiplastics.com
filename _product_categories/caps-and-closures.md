@@ -3,6 +3,8 @@ title: Caps and Closures
 date: 2018-09-06 19:42:55 +0530
 featured_image: ''
 products:
+- image: "/uploads/multivent_applicator.JPG"
+  name: Multivent applicator
 - image: "/uploads/hips_tray_for_tube.JPG"
   name: Hips tray for tube
 - image: "/uploads/gel_applicator.JPG"
