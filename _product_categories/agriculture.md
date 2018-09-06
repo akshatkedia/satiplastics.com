@@ -20,7 +20,7 @@ products:
 - image: "/uploads/korezon_hdpe_bottle_100to1ltr.JPG"
   name: Korezon HDPE bottle 100 mL to 1 L
 - image: "/uploads/zyme_hdpe_bottle_250to1ltr.JPG"
-  name: Zyme HDPE bottle 250 ml to1 l
+  name: Zyme HDPE bottle 250 mL to1 L
 published: false
 
 ---
