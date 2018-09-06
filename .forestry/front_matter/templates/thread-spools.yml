@@ -1,0 +1,31 @@
+---
+label: Thread spools
+hide_body: 
+is_partial: 
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: featured_image
+  label: Featured image
+  type: text
+  hidden: false
+  default: ''
+- name: products
+  label: Products
+  type: field_group_list
+  fields:
+  - name: image
+    label: Image
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
