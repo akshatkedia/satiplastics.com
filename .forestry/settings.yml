@@ -10,13 +10,8 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: _products
-  label: Products
-  create: all
-  match: "**/*"
-- type: directory
   path: _product_categories
-  label: Product categories
+  label: Products
   create: all
   match: "**/*"
 - type: jekyll-pages
