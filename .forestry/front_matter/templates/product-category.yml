@@ -17,4 +17,5 @@ fields:
     name: name
     label: Name
 pages:
+- _product_categories/caps-and-closures.md
 - _product_categories/agriculture.md
