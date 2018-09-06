@@ -8,7 +8,7 @@ products:
 - image: "/uploads/hdpe_can_2_ltr.JPG"
   name: HDPE can 2 L
 - image: "/uploads/nocil_hdpe_bottle_250to1ltr.JPG"
-  name: Nocil HDPE bottle 250 ml to 1 l
+  name: Nocil HDPE bottle 250 mL to 1 L
 - image: "/uploads/nandi_hdpe_bottles_100to1ltr.JPG"
   name: Nandi HDPE bottles 100 ml to 1 l
 - image: "/uploads/trianguler_hdpe_bottle_50to1ltr.JPG"
