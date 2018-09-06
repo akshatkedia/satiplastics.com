@@ -3,6 +3,8 @@ title: Electrical
 date: 2018-09-06 14:39:34 +0000
 featured_image: ''
 products:
+- image: "/uploads/surface_box_4x2m.JPG"
+  name: Surface box 4x2m
 - image: "/uploads/surface_box_4m.JPG"
   name: Surface box 4m
 - image: "/uploads/half_round_rocker.JPG"
