@@ -3,6 +3,8 @@ title: Electrical
 date: 2018-09-06 14:39:34 +0000
 featured_image: ''
 products:
+- image: "/uploads/upper_base_1m.JPG"
+  name: Upper base 1m
 - image: "/uploads/top_plate_buzzer.JPG"
   name: Top plate buzzer
 - image: "/uploads/surface_box_4x2m.JPG"
