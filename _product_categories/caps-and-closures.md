@@ -3,6 +3,8 @@ title: Caps and Closures
 date: 2018-09-06 19:42:55 +0530
 featured_image: ''
 products:
+- image: "/uploads/snap_cap_pp.JPG"
+  name: Snap cap pp
 - image: "/uploads/pvc_trays_for_2ml_ampule.JPG"
   name: PVC trays for 2 mL ampule
 - image: "/uploads/pvc_trays_for_1ml_ampule.JPG"
