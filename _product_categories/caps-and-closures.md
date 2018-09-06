@@ -3,6 +3,8 @@ title: Caps and Closures
 date: 2018-09-06 19:42:55 +0530
 featured_image: ''
 products:
+- image: "/uploads/pvc_spacer.jpg"
+  name: PVC spacer
 - image: "/uploads/multivent_applicator.JPG"
   name: Multivent applicator
 - image: "/uploads/hips_tray_for_tube.JPG"
