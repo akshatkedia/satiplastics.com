@@ -3,6 +3,8 @@ title: Caps and Closures
 date: 2018-09-06 19:42:55 +0530
 featured_image: ''
 products:
+- image: "/uploads/belt_hanger.JPG"
+  name: Belt hanger
 - image: "/uploads/10ml_measure_cup_28mm_screw_neck.JPG"
   name: Measure cup 28mm screw neck 10 mL
 - image: "/uploads/gel_applicator.JPG"
