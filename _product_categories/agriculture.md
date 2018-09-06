@@ -18,7 +18,7 @@ products:
 - image: "/uploads/amway_bottle_100to1ltr.JPG"
   name: Amway bottle 100 mL to 1 L
 - image: "/uploads/korezon_hdpe_bottle_100to1ltr.JPG"
-  name: Korezon HDPE bottle 100 ml to 1 l
+  name: Korezon HDPE bottle 100 mL to 1 L
 - image: "/uploads/zyme_hdpe_bottle_250to1ltr.JPG"
   name: Zyme HDPE bottle 250 ml to1 l
 published: false
