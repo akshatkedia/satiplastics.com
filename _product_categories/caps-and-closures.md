@@ -3,6 +3,8 @@ title: Caps and Closures
 date: 2018-09-06 19:42:55 +0530
 featured_image: ''
 products:
+- image: "/uploads/tray_wedge.jpg"
+  name: Tray wedge
 - image: "/uploads/snap_cap_pp.JPG"
   name: Snap cap pp
 - image: "/uploads/pvc_trays_for_2ml_ampule.JPG"
