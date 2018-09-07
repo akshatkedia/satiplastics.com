@@ -3,6 +3,8 @@ title: HTL
 date: 2018-09-06 20:47:56 +0530
 featured_image: ''
 products:
+- image: "/uploads/premium_caps_for_coffee_jar.JPG"
+  name: Premium caps for coffee jar
 - image: "/uploads/prepair.jpg"
   name: Prepair
 - image: "/uploads/airless_container.JPG"
