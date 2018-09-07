@@ -3,6 +3,8 @@ title: Jars
 date: 2018-09-07 17:01:19 +0530
 featured_image: ''
 products:
+- image: "/uploads/150gm_pp_jar.jpg"
+  name: 150 gm pp jar
 - image: "/uploads/500gm_pp_jar.jpg"
   name: 500 gm pp jar
 - image: "/uploads/400gms_pp_jar.JPG"
