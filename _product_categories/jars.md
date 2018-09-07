@@ -3,6 +3,8 @@ title: Jars
 date: 2018-09-07 17:01:19 +0530
 featured_image: ''
 products:
+- image: "/uploads/240gm_hdpe_jar.JPG"
+  name: 240 gm hdpe jar
 - image: "/uploads/100gm_hdpe_jar.JPG"
   name: 100 gm hdpe jar
 - image: "/uploads/50gm_pp_jar.jpg"
