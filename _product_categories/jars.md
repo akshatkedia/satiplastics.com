@@ -3,6 +3,8 @@ title: Jars
 date: 2018-09-07 17:01:19 +0530
 featured_image: ''
 products:
+- image: "/uploads/250gm_pp_jar.jpg"
+  name: 250 gm pp jar
 - image: "/uploads/250gm_hdpe_jar_blow_moulded.JPG"
   name: 250 gm hdpe jar blow moulded
 - image: "/uploads/240gm_hdpe_jar.JPG"
