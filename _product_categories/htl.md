@@ -3,6 +3,8 @@ title: HTL
 date: 2018-09-06 20:47:56 +0530
 featured_image: ''
 products:
+- image: "/uploads/printed_measure_cup_25mm_ropp_neck.JPG"
+  name: Printed measure cup 25mm ropp neck
 - image: "/uploads/premium_caps_for_coffee_jar.JPG"
   name: Premium caps for coffee jar
 - image: "/uploads/prepair.jpg"
