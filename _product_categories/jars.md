@@ -3,6 +3,8 @@ title: Jars
 date: 2018-09-07 17:01:19 +0530
 featured_image: ''
 products:
+- image: "/uploads/400gms_pp_jar.JPG"
+  name: 400 gms pp jar
 - image: "/uploads/300gms_pp_jar_blow_moulded_.JPG"
   name: 300 gms pp jar blow moulded
 - image: "/uploads/250gm_pp_jar.jpg"
