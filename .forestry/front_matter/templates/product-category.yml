@@ -17,6 +17,7 @@ fields:
     name: name
     label: Name
 pages:
+- _product_categories/jars.md
 - _product_categories/htl.md
 - _product_categories/hdpe-bottles.md
 - _product_categories/electrical.md
