@@ -1,6 +1,6 @@
 ---
 title: Caps and Closures
-date: 2018-09-06 19:42:55 +0530
+date: 2018-09-06 14:12:55 +0000
 featured_image: ''
 products:
 - image: "/uploads/tray_wedge.jpg"
@@ -31,6 +31,5 @@ products:
   name: Measuring spoon 10 g
 - image: "/uploads/thermoformed_hips_trays_1gm.JPG"
   name: Thermoformed hips trays 1 g
-published: false
 
 ---
