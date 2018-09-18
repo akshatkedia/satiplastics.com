@@ -1,6 +1,6 @@
 ---
 title: Jars
-date: 2018-09-07 17:01:19 +0530
+date: 2018-09-07 11:31:19 +0000
 featured_image: ''
 products:
 - image: "/uploads/150gm_pp_jar.jpg"
@@ -25,6 +25,5 @@ products:
   name: 25 gm pp jar
 - image: "/uploads/1kgs_pp_jar.JPG"
   name: 1 kgs pp jar
-published: false
 
 ---
