@@ -1,6 +1,6 @@
 ---
 title: Agriculture
-date: 2018-09-06 15:13:53 +0530
+date: 2018-09-06 09:43:53 +0000
 featured_image: ''
 products:
 - image: "/uploads/5ltr_hdpe_can.JPG"
@@ -23,6 +23,5 @@ products:
   name: Korezon HDPE bottle 100 mL to 1 L
 - image: "/uploads/zyme_hdpe_bottle_250to1ltr.JPG"
   name: Zyme HDPE bottle 250 mL to1 L
-published: false
 
 ---
