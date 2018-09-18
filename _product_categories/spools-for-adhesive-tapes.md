@@ -7,6 +7,5 @@ products:
   name: Cover for spool 2.5cm
 - image: "/uploads/cover_for_spool_1.25cm.JPG"
   name: Cover for spool 1.25cm
-published: false
 
 ---
