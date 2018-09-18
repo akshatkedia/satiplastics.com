@@ -17,11 +17,11 @@ fields:
     name: name
     label: Name
 pages:
+- _product_categories/agriculture.md
+- _product_categories/caps-and-closures.md
+- _product_categories/electrical.md
+- _product_categories/htl.md
 - _product_categories/jars.md
 - _product_categories/spools-for-adhesive-tapes.md
 - _product_categories/pet-bottles.md
-- _product_categories/htl.md
 - _product_categories/hdpe-bottles.md
-- _product_categories/electrical.md
-- _product_categories/caps-and-closures.md
-- _product_categories/agriculture.md

@@ -1,6 +1,6 @@
 ---
 title: HDPE Bottles
-date: 2018-09-06 20:31:44 +0530
+date: 2018-09-06 15:01:44 +0000
 featured_image: ''
 products:
 - image: "/uploads/200ml_hdpe_bottle_with_two_ftc_cap.JPG"
@@ -17,6 +17,5 @@ products:
   name: 60 mL hdpe bottle
 - image: "/uploads/50_70_100_150ml_round_hdpe_bottle.JPG"
   name: 50 70 100 150 mL round hdpe bottles
-published: false
 
 ---
