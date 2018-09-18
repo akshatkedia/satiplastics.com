@@ -23,6 +23,5 @@ products:
   name: Front plate 1m
 - image: "/uploads/blanking_plate.JPG"
   name: Blanking plate
-published: false
 
 ---
