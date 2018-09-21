@@ -6,7 +6,7 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-lg-8">
-                <h1>Portfolio</h1>
+                <h1>{{ page.title }}</h1>
                 <p class="lead">
                     Stack's visual style is simple yet distinct, making it an ideal starting point for your project whether it be a basic marketing site, or multi-page company presence.
                 </p>
@@ -23,13 +23,12 @@ layout: default
             <div class="col-md-12">
                 <div class="masonry">
                     <div class="masonry__container row">
-                        {% for category in site.product_categories %}
-                            <div class="masonry__item col-md-6 text-center">
+                        {% for product in page.products %}
+                            <div class="masonry__item col-lg-4 col-md-6 text-center">
                                 <div class="project-thumb">
-                                    <a href="{{ category.url }}">
-                                        <img alt="{{ category.title }}" class="border--round" src="{{ category.featured_image }}" />
+                                    <a href="#">
+                                        <img alt="{{ product.name }}" class="border--round" src="{{ product.image }}" />
                                     </a>
-                                    <h4>{{ category.title }}</h4>
                                 </div>
                             </div>
                             <!--end item-->

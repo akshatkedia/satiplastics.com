@@ -4,19 +4,15 @@ timezone: Mumbai
 collections:
   uploads:
     output: true
-  products:
-    output: false
   product_categories:
-    output: false
+    output: true
 defaults:
   - scope:
       path: ""
       type: product_categories
     values:
-      featured_image:
-      products:
-        - title:
-          image:
+      layout: category
+      permalink: /portfolio/:title
 email: ashish@satiplastics.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
@@ -36,3 +32,4 @@ sass:
   style: compressed
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag

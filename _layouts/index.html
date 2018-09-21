@@ -95,30 +95,25 @@ layout: default
     </div>
     <!--end of row-->
     <div class="row">
-      <div class="masonry">
-        <div class="masonry__container masonry--active" style="position: relative; height: 956.218px;">
-          {% for category in site.product_categories %}
-          <div class="masonry__item col-sm-6 text-center filter-print" data-masonry-filter="Print" style="position: absolute; left: 0px; top: 0px;">
-            <div class="project-thumb">
-              <a href="#">
-                <img alt="Image" class="border--round" src="{{ category.featured_image }}">
-              </a>
-              <h4>{{ category.title }}</h4>
+        <div class="col-md-12">
+            <div class="masonry">
+                <div class="masonry__container row">
+                    {% for category in site.product_categories %}
+                        <div class="masonry__item col-md-6 text-center">
+                            <div class="project-thumb">
+                                <a href="{{ category.url }}">
+                                    <img alt="{{ category.title }}" class="border--round" src="{{ category.featured_image }}" />
+                                </a>
+                                <h4>{{ category.title }}</h4>
+                            </div>
+                        </div>
+                        <!--end item-->
+                    {% endfor %}
+                </div>
+                <!--end of masonry container-->
             </div>
-          </div>
-          <!--end item-->
-          {% endfor %}
+            <!--end masonry-->
         </div>
-        <!--end of masonry container-->
-      </div>
-      <!--end masonry-->
-    </div>
-    <!--end of row-->
-    <div class="text-center">
-      <a class="btn btn--lg btn--primary" href="/portfolio">
-        <span class="btn__text">View our Portfolio</span>
-      </a>
-    </div>
   </div>
   <!--end of container-->
 </section>
