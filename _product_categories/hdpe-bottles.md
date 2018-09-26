@@ -1,7 +1,7 @@
 ---
 title: HDPE Bottles
 date: 2018-09-06 15:01:44 +0000
-featured_image: ''
+featured_image: "/uploads/HDPE.jpg"
 products:
 - image: "/uploads/200ml_hdpe_bottle_with_two_ftc_cap.JPG"
   name: 200 mL hdpe bottle with two ftc cap
