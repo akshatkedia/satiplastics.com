@@ -1,7 +1,7 @@
 ---
 title: Electrical
 date: 2018-09-06 14:39:34 +0000
-featured_image: ''
+featured_image: "/uploads/Electrical.jpg"
 products:
 - image: "/uploads/upper_base_1m.JPG"
   name: Upper base 1m
