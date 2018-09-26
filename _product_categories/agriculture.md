@@ -1,7 +1,7 @@
 ---
 title: Agriculture
 date: 2018-09-06 09:43:53 +0000
-featured_image: ''
+featured_image: "/uploads/Agriculture.jpg"
 products:
 - image: "/uploads/5ltr_hdpe_can.JPG"
   name: HDPE can 5 L
