@@ -1,7 +1,7 @@
 ---
 title: Caps and Closures
 date: 2018-09-06 14:12:55 +0000
-featured_image: ''
+featured_image: "/uploads/Caps and Closure.JPG"
 products:
 - image: "/uploads/tray_wedge.jpg"
   name: Tray wedge
