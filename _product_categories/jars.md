@@ -1,7 +1,7 @@
 ---
 title: Jars
 date: 2018-09-07 11:31:19 +0000
-featured_image: ''
+featured_image: "/uploads/jars-featured.JPG"
 products:
 - image: "/uploads/150gm_pp_jar.jpg"
   name: 150 gm pp jar
