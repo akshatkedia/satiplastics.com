@@ -1,7 +1,7 @@
 ---
 title: Pet bottles
 date: 2018-09-07 11:59:14 +0000
-featured_image: ''
+featured_image: "/uploads/pet-bottles-featured.JPG"
 products:
 - image: "/uploads/100ml_round_bottle.JPG"
   name: 100 ml round bottle
