@@ -28,9 +28,10 @@ layout: default
                         {% for product in page.products %}
                             <div class="masonry__item col-lg-4 col-md-6 text-center">
                                 <div class="project-thumb">
-                                    <a href="#">
-                                        <img alt="{{ product.name }}" class="border--round" src="{{ product.image }}" />
-                                    </a>
+                                    <img alt="{{ product.name }}" class="border--round" src="{{ product.image }}" />
+                                    {% if product.name %}
+                                      <h4>{{ product.name }}</h4>
+                                    {% endif %}
                                 </div>
                             </div>
                             <!--end item-->
