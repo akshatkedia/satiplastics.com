@@ -8,6 +8,10 @@
   max-height: 3.4285714286em;
 }
 
+.menu-horizontal>li.active>a {
+  color: #4a90e2;
+}
+
 .index {
   .background-image-holder {
     opacity: 0;
