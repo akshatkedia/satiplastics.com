@@ -1,6 +1,6 @@
 ---
 title: Home
-date: 2018-01-29 23:34:02 +05:30
+date: 2018-01-29 18:04:02 +0000
 permalink: "/"
 slider:
   images:
@@ -26,18 +26,22 @@ slider:
       your product and increase client price, therefore creating your complete stand
       out at the purpose of sale.
 how_we_create:
-  image: "/uploads/how_we_create.jpg"
+  image: "/uploads/how-we-create.jpg"
   title: How We Create
-  text: "Simplifying and improving our processes continuously.\nOptimizing our financial
-    and physical resources.\nCommunicating openly, honestly and frequently.\nDeveloping
-    a highly motivated, valued and diverse workforce.\nCollaborating, supporting and
-    respecting one another.\nActing with absolute integrity."
+  text: |-
+    Simplifying and improving our processes continuously.
+    Optimizing our financial and physical resources.
+    Communicating openly, honestly and frequently.
+    Developing a highly motivated, valued and diverse workforce.
+    Collaborating, supporting and respecting one another.
+    Acting with absolute integrity.
 goals:
-  - icon: Bar-Chart
-    title: Increase Customer Profits
-  - icon: Financial
-    title: Cost Effective Services
-  - icon: Check
-    title: Thorough Quality Check
+- icon: Bar-Chart
+  title: Increase Customer Profits
+- icon: Financial
+  title: Cost Effective Services
+- icon: Check
+  title: Thorough Quality Check
 layout: index
+
 ---
