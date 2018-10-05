@@ -2,18 +2,23 @@
 layout: default
 ---
 
-<section class="text-center height-40">
-  <div class="container pos-vertical-center">
-    <div class="row">
-      <div class="col-sm-8 col-md-6">
-        <h1>Contact</h1>
-      </div>
+<section class="text-center space--xxs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8">
+                <h1>Contact</h1>
+                {% if page.description %}
+                  <p class="lead">
+                      {{ page.description }}
+                  </p>
+                {% endif %}
+            </div>
+        </div>
+        <!--end of row-->
     </div>
-    <!--end of row-->
-  </div>
-  <!--end of container-->
+    <!--end of container-->
 </section>
-<section class="switchable ">
+<section class="switchable space--xxs">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-7 col-xs-12">

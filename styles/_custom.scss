@@ -5,7 +5,21 @@
 }
 
 .bar .logo {
-  max-height: 3.4285714286em;
+  max-height: 4em;
+  top: 0;
+}
+
+.bar .menu-horizontal {
+  top: 0;
+}
+
+.bar-1 .menu-horizontal>li>a {
+  font-size: 0.9285714286em;
+  font-weight: 600;
+}
+
+.menu-horizontal>li:not(:hover)>a {
+  opacity: 1;
 }
 
 .menu-horizontal>li.active>a {
